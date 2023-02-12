@@ -1,16 +1,16 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #fff;
 }
 
 a {
-  color: #14c871;
+  color:#205295 ;
   text-decoration: none;
 }
 
 a:hover {
-  color: #206bfb;
+  color:#14c871;
   text-decoration: none;
 }
 
@@ -22,7 +22,9 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+p{
+  color: white;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -39,7 +41,9 @@ h6 {
   border-radius: 4px;
   transition: all 0.4s;
 }
-
+label{
+  color: black;
+}
 .back-to-top i {
   font-size: 24px;
   color: #fff;
@@ -144,7 +148,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #16df7e;
+  color: #205295;
 }
 
 .navbar .getstarted,
@@ -184,6 +188,25 @@ h6 {
 
 .navbar .dropdown ul li {
   min-width: 200px;
+}
+.whatsapp{
+  background-color: #0eb049; /* Light Green */
+  border-radius: 10px; /* Rounded Corners */
+  padding: 0px 0px; /* Space inside the button */
+  color: #fff; /* Text color */
+  font-size: 30px; /* Text size */
+  border: none; /* No border */
+  margin: 0px 0px 0px 0px ;
+}
+.whatsapp i {
+  margin-right: 10px;
+}
+
+/* WhatsApp Icon */
+i.ico {
+  font-size: 20px;
+  color: #fff;
+  align-items: flex-end;
 }
 .whatsapp_float {
   position: fixed;
@@ -531,7 +554,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f9fa;
+  background-color: #23374D;
 }
 
 .section-title {
@@ -546,7 +569,6 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5f687b;
   position: relative;
   z-index: 2;
 }
@@ -591,8 +613,8 @@ section {
 .featured-services .icon-box {
   padding: 20px;
   color: #5f687b;
-  background: #f9f9fa;
-  border-radius: 4px;
+  background: #23374D;
+  border-radius: 10px;
   border: 1px solid #f9f9fa;
   transition: 0.3s;
   height: 100%;
@@ -639,7 +661,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 32px;
-  color: #5f687b;
+  color: black;
 }
 
 .about .content ul {
@@ -649,6 +671,7 @@ section {
 
 .about .content ul li {
   padding-bottom: 10px;
+  color: black;
 }
 
 .about .content ul i {
@@ -660,7 +683,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.heel{
+  color: wheat;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -671,10 +696,9 @@ section {
 .counts .counters span {
   font-size: 48px;
   display: block;
-  color: #16df7e;
+  color: #144272;
   font-weight: 700;
 }
-
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
@@ -682,13 +706,13 @@ section {
   font-size: 14px;
   font-weight: 600;
 }
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
+  border-radius: 10px;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
@@ -910,7 +934,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: wheat;
 }
 
 .testimonials .testimonial-item h4 {
@@ -943,6 +967,7 @@ section {
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
   background: white;
+  color: black;
   position: relative;
   border-radius: 6px;
   position: relative;
