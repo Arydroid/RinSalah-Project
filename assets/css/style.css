@@ -716,6 +716,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  box-sizing: border-box;
 }
 
 .services .icon-box .icon {
@@ -1317,8 +1318,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background-color: #f3f4f6;
-  color: #5f687b;
+  background-color: #23374D;;
+  color: white;
   font-size: 14px;
   position: relative;
 }
