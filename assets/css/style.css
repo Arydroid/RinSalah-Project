@@ -200,6 +200,7 @@ label{
 }
 .whatsapp i {
   margin-right: 10px;
+  padding-top: 10px;
 }
 
 /* WhatsApp Icon */
@@ -475,7 +476,9 @@ i.ico {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
 }
-
+.green{
+  background-color: #198754;
+}
 .hero .info .btn-get-started {
   font-family: var(--font-primary);
   font-size: 20px;
