@@ -534,7 +534,7 @@ i.ico {
 
 .hero .carousel-control-prev,
 .hero .carousel-control-next {
-  z-index: 3;
+  z-index: 0;
   transition: 0.3s;
 }
 
